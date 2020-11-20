@@ -13,6 +13,8 @@
       
       <categories>
           
+          <category> 其他 </category>
+          
           <category> 目标 </category>
           
       </categories>
@@ -40,6 +42,8 @@
           
           <category> 数据结构与算法 </category>
           
+          <category> 图形结构 </category>
+          
       </categories>
       
       
@@ -62,6 +66,8 @@
       
       
       <categories>
+          
+          <category> 其他 </category>
           
           <category> 高等数学 </category>
           
@@ -90,6 +96,8 @@
           
           <category> 数据结构与算法 </category>
           
+          <category> 树形结构 </category>
+          
       </categories>
       
       
@@ -114,6 +122,8 @@
       <categories>
           
           <category> 数据结构与算法 </category>
+          
+          <category> 排序和查找 </category>
           
       </categories>
       
@@ -140,6 +150,8 @@
           
           <category> 数据结构与算法 </category>
           
+          <category> 线性结构 </category>
+          
       </categories>
       
       
@@ -164,6 +176,8 @@
       <categories>
           
           <category> 生活 </category>
+          
+          <category> 长大后明白的道理 </category>
           
       </categories>
       
@@ -190,6 +204,8 @@
           
           <category> less </category>
           
+          <category> 全局变量 </category>
+          
       </categories>
       
       
@@ -215,6 +231,8 @@
           
           <category> nuxt </category>
           
+          <category> 页面刷新数据丢失 </category>
+          
       </categories>
       
       
@@ -238,7 +256,9 @@
       
       <categories>
           
-          <category> nuxt,proxy </category>
+          <category> nuxt </category>
+          
+          <category> 代理 </category>
           
       </categories>
       
@@ -265,7 +285,9 @@
       
       <categories>
           
-          <category> nuxt,i18n </category>
+          <category> nuxt </category>
+          
+          <category> 国际化 </category>
           
       </categories>
       
@@ -294,6 +316,8 @@
           
           <category> vue </category>
           
+          <category> 时时监听网络的链接状态 </category>
+          
       </categories>
       
       
@@ -319,6 +343,8 @@
           
           <category> hexo </category>
           
+          <category> windows转mac </category>
+          
       </categories>
       
       
@@ -342,7 +368,9 @@
       
       <categories>
           
-          <category> vue,proxy </category>
+          <category> vue </category>
+          
+          <category> 代理 </category>
           
       </categories>
       
@@ -371,6 +399,8 @@
           
           <category> hexo </category>
           
+          <category> 集成gitalk评论功能遇到的坑 </category>
+          
       </categories>
       
       
@@ -394,7 +424,9 @@
       
       <categories>
           
-          <category> vant,vue </category>
+          <category> vue </category>
+          
+          <category> 组件的List渲染列表多页列表 切换不加载的问题 </category>
           
       </categories>
       
@@ -423,6 +455,8 @@
           
           <category> vue </category>
           
+          <category> router </category>
+          
       </categories>
       
       
@@ -446,7 +480,9 @@
       
       <categories>
           
-          <category> i18n,vue </category>
+          <category> vue </category>
+          
+          <category> 国际化 </category>
           
       </categories>
       
@@ -473,14 +509,14 @@
       
       <categories>
           
-          <category> js,iconfont,vue </category>
+          <category> iconfont </category>
+          
+          <category> Vue字体图标不显示的设置 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> js </tag>
             
             <tag> iconfont </tag>
             
@@ -503,6 +539,8 @@
       <categories>
           
           <category> css </category>
+          
+          <category> 负外边距的巧妙运用 </category>
           
       </categories>
       
@@ -529,6 +567,8 @@
           
           <category> css </category>
           
+          <category> 不常见但是实用css属性 </category>
+          
       </categories>
       
       
@@ -553,6 +593,8 @@
       <categories>
           
           <category> css </category>
+          
+          <category> 中间文字 两端横线 </category>
           
       </categories>
       
@@ -579,6 +621,8 @@
           
           <category> 其他 </category>
           
+          <category> 好的文章 好的博客  好的语录等等 </category>
+          
       </categories>
       
       
@@ -602,7 +646,7 @@
       
       <categories>
           
-          <category> common.js </category>
+          <category> common </category>
           
       </categories>
       
@@ -640,6 +684,8 @@
             
             <tag> vue </tag>
             
+            <tag> 基础 一 </tag>
+            
         </tags>
       
     </entry>
@@ -656,7 +702,9 @@
       
       <categories>
           
-          <category> html&gt;css </category>
+          <category> html </category>
+          
+          <category> 页面布局 </category>
           
       </categories>
       
@@ -685,6 +733,8 @@
           
           <category> js </category>
           
+          <category> 获取url的各个参数的值 </category>
+          
       </categories>
       
       
@@ -707,6 +757,8 @@
       
       
       <categories>
+          
+          <category> 其他 </category>
           
           <category> 规范 </category>
           
@@ -735,6 +787,8 @@
           
           <category> 小程序 </category>
           
+          <category> wx </category>
+          
       </categories>
       
       
@@ -760,6 +814,8 @@
           
           <category> js </category>
           
+          <category> 获取html到fontSize大小 </category>
+          
       </categories>
       
       
@@ -783,9 +839,9 @@
       
       <categories>
           
-          <category> html </category>
-          
           <category> css </category>
+          
+          <category> 水平居中 </category>
           
       </categories>
       
@@ -813,6 +869,8 @@
       <categories>
           
           <category> js </category>
+          
+          <category> 正则表达式 </category>
           
       </categories>
       
@@ -864,6 +922,8 @@
           
           <category> cookie </category>
           
+          <category> 设置cookie </category>
+          
       </categories>
       
       
@@ -888,6 +948,8 @@
       <categories>
           
           <category> css </category>
+          
+          <category> 块级格式化上下文 </category>
           
       </categories>
       
@@ -914,6 +976,8 @@
           
           <category> css </category>
           
+          <category> 三大特性 </category>
+          
       </categories>
       
       
@@ -938,6 +1002,8 @@
       <categories>
           
           <category> js </category>
+          
+          <category> 闭包详解 </category>
           
       </categories>
       
@@ -964,6 +1030,8 @@
           
           <category> js </category>
           
+          <category> 原型 </category>
+          
       </categories>
       
       
@@ -988,6 +1056,8 @@
       <categories>
           
           <category> html </category>
+          
+          <category> 基础知识 </category>
           
       </categories>
       
