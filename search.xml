@@ -23,31 +23,6 @@
     
     
     <entry>
-      <title>公告</title>
-      <link href="2020/11/18/remind/"/>
-      <url>2020/11/18/remind/</url>
-      
-        <content type="html"><![CDATA[<h2 id="一、原来的网站不在更新"><a href="#一、原来的网站不在更新" class="headerlink" title="一、原来的网站不在更新"></a>一、原来的网站不在更新</h2><blockquote><p>为什么原来的网站不再更新了呢？原因很简单</p><ul><li><ol><li>没有现在的好呗！哈哈</li></ol></li><li><ol start="2"><li>本人爱折腾！</li></ol></li></ul></blockquote><blockquote><p>为了更好的交流，重新搞了这个网站，并且会把原来的网站内的内容迁移到本网站来<br>以后也会不断的更新博客</p></blockquote><h2 id="二、本篇文章也是测试文章"><a href="#二、本篇文章也是测试文章" class="headerlink" title="二、本篇文章也是测试文章"></a>二、本篇文章也是测试文章</h2><blockquote><p>本篇文章是测试一下本网站功能是否正常</p></blockquote><h2 id="三、本网站现在还未更新全部功能"><a href="#三、本网站现在还未更新全部功能" class="headerlink" title="三、本网站现在还未更新全部功能"></a>三、本网站现在还未更新全部功能</h2><blockquote><p>本网站现在还未更新全部功能，本人会在未来的一个月内更新完成，敬请期待！</p></blockquote><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>Hello word!<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 公告 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 公告 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>2020下半年——目标</title>
       <link href="2020/08/06/target-2020/"/>
       <url>2020/08/06/target-2020/</url>
@@ -282,7 +257,7 @@
       
       <categories>
           
-          <category> nuxt </category>
+          <category> nuxt,proxy </category>
           
       </categories>
       
@@ -290,6 +265,8 @@
         <tags>
             
             <tag> nuxt </tag>
+            
+            <tag> proxy </tag>
             
         </tags>
       
@@ -307,7 +284,7 @@
       
       <categories>
           
-          <category> nuxt </category>
+          <category> nuxt,i18n </category>
           
       </categories>
       
@@ -375,32 +352,6 @@
     
     
     <entry>
-      <title>gitConfig</title>
-      <link href="2020/06/27/gitConfig/"/>
-      <url>2020/06/27/gitConfig/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Homebrew</title>
-      <link href="2020/06/27/Homebrew/"/>
-      <url>2020/06/27/Homebrew/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>vue-proxy</title>
       <link href="2020/05/12/vue-proxy/"/>
       <url>2020/05/12/vue-proxy/</url>
@@ -410,12 +361,14 @@
       
       <categories>
           
-          <category> vue </category>
+          <category> vue,proxy </category>
           
       </categories>
       
       
         <tags>
+            
+            <tag> vue </tag>
             
             <tag> proxy </tag>
             
@@ -460,12 +413,14 @@
       
       <categories>
           
-          <category> vant </category>
+          <category> vant,vue </category>
           
       </categories>
       
       
         <tags>
+            
+            <tag> vue </tag>
             
             <tag> vant </tag>
             
@@ -492,7 +447,7 @@
       
         <tags>
             
-            <tag> vue-router </tag>
+            <tag> vue </tag>
             
         </tags>
       
@@ -510,12 +465,14 @@
       
       <categories>
           
-          <category> vue </category>
+          <category> i18n,vue </category>
           
       </categories>
       
       
         <tags>
+            
+            <tag> vue </tag>
             
             <tag> i18n </tag>
             
@@ -535,14 +492,14 @@
       
       <categories>
           
-          <category> vue </category>
+          <category> js,iconfont,vue </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> javascript </tag>
+            <tag> js </tag>
             
             <tag> iconfont </tag>
             
@@ -614,14 +571,14 @@
       
       <categories>
           
-          <category> css </category>
+          <category> 其他 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> 其他 </tag>
             
         </tags>
       
@@ -718,9 +675,7 @@
       
       <categories>
           
-          <category> html </category>
-          
-          <category> css </category>
+          <category> html，css </category>
           
       </categories>
       
@@ -745,14 +700,39 @@
       
       <categories>
           
-          <category> javascript </category>
+          <category> js </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> javascript </tag>
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端规范</title>
+      <link href="2018/04/19/norm/"/>
+      <url>2018/04/19/norm/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前端规范"><a href="#前端规范" class="headerlink" title="前端规范"></a><strong>前端规范</strong></h1><ol><li>命名规则</li></ol><ul><li>头 : header</li><li>内容 : content/container</li><li>尾部 : footer</li><li>导航 : nav</li><li>侧栏 : sidebar</li><li>栏目 : column</li><li>外围盒子控制整体布局 : wrapper</li><li>左 右 中 : left / center / right</li><li>登录条 : loginbar</li><li>标志 : logo</li><li>广告 : banner</li><li>页面主题 : main</li><li>热点 : hot</li><li>新闻 : news</li><li>下载 : download</li><li>子导航 : subnav</li><li>菜单 : menu</li><li>子菜单 : submenu</li><li>搜索 : search</li><li>友情链接 : friendlink</li><li>页脚 : footer</li><li>版权 : copyright</li><li>滚动 : scroll</li><li>内容 : content</li><li>标签页 : tab</li><li>文章列表 : list</li><li>提示信息 : msg</li><li>小技巧 : tips</li><li>栏目标题 : title</li><li>加入 : joinus</li><li>指南 : guild</li><li>服务 : service</li><li>注册 : regsiter</li><li>状态 : status</li><li>投票 : vote</li><li>合作伙伴 : partner</li></ul><ol start="2"><li>注释的写法</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*Footer Start*/</span></span><br><span class="line">内容区</span><br><span class="line"><span class="comment">/*Footer End*/</span></span><br></pre></td></tr></table></figure><ol start="3"><li><p>id的命名</p><p>3.1 页面结果</p><ul><li>容器 :  container </li><li>页头 : header</li><li>内容 : content / container </li><li>页面主体 : main </li><li>页尾 : footer </li><li>导航 : nav </li><li>侧栏 : sidebar </li><li>栏目 : column </li><li>页面外围控制整体布局宽度 : wrapper </li><li>左右中 : left / right / center</li></ul><p>3.2 导航</p><ul><li>导航 : nav </li><li>主导航 : mainbav </li><li>子导航 : subnav </li><li>顶导航 : topnav </li><li>边导航 : sidebar </li><li>左导航 : leftsidebar </li><li>右导航 : rightsidebar </li><li>菜单 : menu </li><li>子菜单 : submenu </li><li>标题 : title </li><li>摘要 : summary</li></ul><p>3.3 功能</p><ul><li>  标志 : logo </li><li>广告 : banner </li><li>登陆 : login </li><li>登录条 : loginbar </li><li>注册 : regsiter </li><li>搜索 : search </li><li>功能区 : shop </li><li>标题 : title </li><li>加入 : joinus </li><li>状态 : status </li><li>按钮 : btn </li><li>滚动 : scroll </li><li>标签页 : tab </li><li>文章列表 : list </li><li>提示信息 : msg </li><li>当前的 : current </li><li>小技巧 : tips </li><li>图标 : icon </li><li>注释 : note </li><li>指南 : guild </li><li>服务 : service </li><li>热点 : hot </li><li>新闻 : news </li><li>下载 : download </li><li>投票 : vote </li><li>合作伙伴 : partner </li><li>友情链接 : link </li><li>版权 : copyright</li></ul></li><li><p>css样式</p><p>4.1 重置默认样式</p><p>4.2 添加自定义全局样式</p><p>4.3 抽取文件定义单页面全局样式</p><p>4.3 样式定义规则 ： 重定义 &gt; 伪类 &gt; 自定义 （便于阅读）</p></li><li><p>javascript 书写规范 </p><p>5.1 书写过程 ：每行代码结束结构统一（有无分号-&gt;有的话，每行代码都应该有-&gt; eslint 设置规则，遵守即可）。防止代码冗余 | 与不小心造成与远程代码造成冲突</p><p>5.2  库的引入 ：根据项目需求，尽量的少引入。引入的时候，尽量使用按需引入，节省资源</p><p>5.3 变量命名规则  ：驼峰式命名法 </p><p>5.4 类命名  : 首字母大写, 驼峰式命名</p><p>5.5 函数命名: 首字母小写驼峰式命名</p><p>5.6 命名语义化, 尽可能利用英文单词或其缩写</p><p>5.7 尽量避免使用存在兼容性及消耗资源的方法或属性, 比如eval() &amp;; innerText</p><p>5.8 后期优化中, JavaScript非注释类中文字符须转换成unicode编码使用, 以避免编码错误时乱码显示;</p><p>5.9 代码结构明了, 加适量注释. 提高函数重用率</p><p>5.10 注重 样式 结构 行为 相分离</p></li><li><p>图片规范</p><p>6.1 所有页面元素类图片均放入img文件夹</p><p>6.2 图片格式仅限于gif || png || jpg</p><p>6.3 命名全部用小写英文字母 || 数字 || _ 的组合,其中不得包含汉字 || 空格 || 特殊字符;尽量用易懂的词汇, 便于团队其他成员理解; 另, 命名分头尾两部分, 用下划线隔开, 比如ad_left01.gif || btn_submit.gif</p><p>6.4 在保证视觉效果的情况下选择最小的图片格式与图片质量, 以减少加载时间</p><p>6.5 尽量避免使用半透明的png图片(若使用, 请参考css规范相关说明)</p><p>6.6 运用css sprite技术集中小的背景图或图标, 减小页面http请求, 但注意, 请务必在对应的sprite psd源图中划参考线, 并保存至img目录下</p></li><li><p>注释规范 </p><p>7.1 html注释: 注释格式&lt; !–这儿是注释–&gt;, ‘–’只能在注释的始末位置,不可置入注释文字区域</p><p>7.2 css注释: 注释格式 /*这儿是注释*/</p><p>7.3 JavaScript注释, 单行注释使用’//这儿是单行注释’ ,多行注释使用 /* 这儿有多行注释 */</p></li><li><p>结束语</p></li></ol><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然   有 不好的地方  请大家帮忙指出   学习永无止境    </p><p>小编一直认为  人外有人  天外有天    一起学习   共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 规范 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 规范 </tag>
             
         </tags>
       
@@ -786,31 +766,6 @@
     
     
     <entry>
-      <title>前端规范</title>
-      <link href="2018/04/15/norm/"/>
-      <url>2018/04/15/norm/</url>
-      
-        <content type="html"><![CDATA[<h1 id="前端规范"><a href="#前端规范" class="headerlink" title="前端规范"></a><strong>前端规范</strong></h1><ol><li>命名规则</li></ol><ul><li>头 : header</li><li>内容 : content/container</li><li>尾部 : footer</li><li>导航 : nav</li><li>侧栏 : sidebar</li><li>栏目 : column</li><li>外围盒子控制整体布局 : wrapper</li><li>左 右 中 : left / center / right</li><li>登录条 : loginbar</li><li>标志 : logo</li><li>广告 : banner</li><li>页面主题 : main</li><li>热点 : hot</li><li>新闻 : news</li><li>下载 : download</li><li>子导航 : subnav</li><li>菜单 : menu</li><li>子菜单 : submenu</li><li>搜索 : search</li><li>友情链接 : friendlink</li><li>页脚 : footer</li><li>版权 : copyright</li><li>滚动 : scroll</li><li>内容 : content</li><li>标签页 : tab</li><li>文章列表 : list</li><li>提示信息 : msg</li><li>小技巧 : tips</li><li>栏目标题 : title</li><li>加入 : joinus</li><li>指南 : guild</li><li>服务 : service</li><li>注册 : regsiter</li><li>状态 : status</li><li>投票 : vote</li><li>合作伙伴 : partner</li></ul><ol start="2"><li>注释的写法</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*Footer Start*/</span></span><br><span class="line">内容区</span><br><span class="line"><span class="comment">/*Footer End*/</span></span><br></pre></td></tr></table></figure><ol start="3"><li><p>id的命名</p><p>3.1 页面结果</p><ul><li>容器 :  container </li><li>页头 : header</li><li>内容 : content / container </li><li>页面主体 : main </li><li>页尾 : footer </li><li>导航 : nav </li><li>侧栏 : sidebar </li><li>栏目 : column </li><li>页面外围控制整体布局宽度 : wrapper </li><li>左右中 : left / right / center</li></ul><p>3.2 导航</p><ul><li>导航 : nav </li><li>主导航 : mainbav </li><li>子导航 : subnav </li><li>顶导航 : topnav </li><li>边导航 : sidebar </li><li>左导航 : leftsidebar </li><li>右导航 : rightsidebar </li><li>菜单 : menu </li><li>子菜单 : submenu </li><li>标题 : title </li><li>摘要 : summary</li></ul><p>3.3 功能</p><ul><li>  标志 : logo </li><li>广告 : banner </li><li>登陆 : login </li><li>登录条 : loginbar </li><li>注册 : regsiter </li><li>搜索 : search </li><li>功能区 : shop </li><li>标题 : title </li><li>加入 : joinus </li><li>状态 : status </li><li>按钮 : btn </li><li>滚动 : scroll </li><li>标签页 : tab </li><li>文章列表 : list </li><li>提示信息 : msg </li><li>当前的 : current </li><li>小技巧 : tips </li><li>图标 : icon </li><li>注释 : note </li><li>指南 : guild </li><li>服务 : service </li><li>热点 : hot </li><li>新闻 : news </li><li>下载 : download </li><li>投票 : vote </li><li>合作伙伴 : partner </li><li>友情链接 : link </li><li>版权 : copyright</li></ul></li><li><p>css样式</p><p>4.1 重置默认样式</p><p>4.2 添加自定义全局样式</p><p>4.3 抽取文件定义单页面全局样式</p><p>4.3 样式定义规则 ： 重定义 &gt; 伪类 &gt; 自定义 （便于阅读）</p></li><li><p>javascript 书写规范 </p><p>5.1 书写过程 ：每行代码结束结构统一（有无分号-&gt;有的话，每行代码都应该有-&gt; eslint 设置规则，遵守即可）。防止代码冗余 | 与不小心造成与远程代码造成冲突</p><p>5.2  库的引入 ：根据项目需求，尽量的少引入。引入的时候，尽量使用按需引入，节省资源</p><p>5.3 变量命名规则  ：驼峰式命名法 </p><p>5.4 类命名  : 首字母大写, 驼峰式命名</p><p>5.5 函数命名: 首字母小写驼峰式命名</p><p>5.6 命名语义化, 尽可能利用英文单词或其缩写</p><p>5.7 尽量避免使用存在兼容性及消耗资源的方法或属性, 比如eval() &amp;; innerText</p><p>5.8 后期优化中, JavaScript非注释类中文字符须转换成unicode编码使用, 以避免编码错误时乱码显示;</p><p>5.9 代码结构明了, 加适量注释. 提高函数重用率</p><p>5.10 注重 样式 结构 行为 相分离</p></li><li><p>图片规范</p><p>6.1 所有页面元素类图片均放入img文件夹</p><p>6.2 图片格式仅限于gif || png || jpg</p><p>6.3 命名全部用小写英文字母 || 数字 || _ 的组合,其中不得包含汉字 || 空格 || 特殊字符;尽量用易懂的词汇, 便于团队其他成员理解; 另, 命名分头尾两部分, 用下划线隔开, 比如ad_left01.gif || btn_submit.gif</p><p>6.4 在保证视觉效果的情况下选择最小的图片格式与图片质量, 以减少加载时间</p><p>6.5 尽量避免使用半透明的png图片(若使用, 请参考css规范相关说明)</p><p>6.6 运用css sprite技术集中小的背景图或图标, 减小页面http请求, 但注意, 请务必在对应的sprite psd源图中划参考线, 并保存至img目录下</p></li><li><p>注释规范 </p><p>7.1 html注释: 注释格式&lt; !–这儿是注释–&gt;, ‘–’只能在注释的始末位置,不可置入注释文字区域</p><p>7.2 css注释: 注释格式 /*这儿是注释*/</p><p>7.3 JavaScript注释, 单行注释使用’//这儿是单行注释’ ,多行注释使用 /* 这儿有多行注释 */</p></li><li><p>结束语</p></li></ol><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然   有 不好的地方  请大家帮忙指出   学习永无止境    </p><p>小编一直认为  人外有人  天外有天    一起学习   共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> javascript </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> javascript </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>js获取html到fontSize大小</title>
       <link href="2018/03/21/js-set-html-font-size/"/>
       <url>2018/03/21/js-set-html-font-size/</url>
@@ -827,7 +782,32 @@
       
         <tags>
             
-            <tag> javascript </tag>
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>盒子的垂直水平居中的几种方式</title>
+      <link href="2018/02/15/divCenter/"/>
+      <url>2018/02/15/divCenter/</url>
+      
+        <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>首先，在做之前，咱们先来分析一下我们要做的是什么？</p><p>一个盒子，垂直   水平  居中</p><p>首先   有居中  就必定会被一个父容器（盒子）包裹。</p><p>其次  要居中的盒子不会超出父容器大小（否则做居中意义就不大了）</p><p>然后   要居中的盒子的宽高可以分为两类   1. 具有固定的宽高。 2. 没有固定的宽高</p><p>​      根据盒子的类型也可分为两类    1.行内快元素inline-block    2. 块级元素block</p><p>那么   现在开始吧！</p><h2 id="方式一-弹性盒模型的方式"><a href="#方式一-弹性盒模型的方式" class="headerlink" title="方式一  (弹性盒模型的方式)"></a>方式一  (弹性盒模型的方式)</h2><p>html 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.box&#123;</span><br><span class="line">  height: 100vh;</span><br><span class="line">  display: flex;</span><br><span class="line">  justify-content: center;</span><br><span class="line">  align-items: center;</span><br><span class="line">&#125;</span><br><span class="line">.container&#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  background-color: aqua;</span><br><span class="line">  height: 200px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E5%BC%B9%E6%80%A7%E7%9B%92%E6%A8%A1%E5%9E%8B.png" alt="弹性盒模型"></p><h2 id="方式二-（绝对定位）"><a href="#方式二-（绝对定位）" class="headerlink" title="方式二 （绝对定位）"></a>方式二 （绝对定位）</h2><p>html  代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css  代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.container &#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  background-color: red;</span><br><span class="line">  height: 200px;</span><br><span class="line">  margin: auto;</span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 0;</span><br><span class="line">  bottom: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  right: 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D.png" alt="绝对定位"></p><p>注意：由于是使用绝对定位。元素脱离文档流，相对于具有除去<strong>static</strong>定位以外的其他父级定位去定位的，如果没有父级定位，根据body来定位</p><h2 id="方式三（位移transform的translate属性-定位）"><a href="#方式三（位移transform的translate属性-定位）" class="headerlink" title="方式三（位移transform的translate属性 + 定位）"></a>方式三（位移transform的translate属性 + 定位）</h2><p>html 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">  position: relative;</span><br><span class="line">  height: 100vh;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.container &#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  height: 200px;</span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 50%;</span><br><span class="line">  left: 50%;</span><br><span class="line">  transform: translate(-50%, -50%);</span><br><span class="line">  background-color: blueviolet;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E4%BD%8D%E7%A7%BBpng.png" alt="位移"></p><h2 id="方式四（位移-外边距-vh）"><a href="#方式四（位移-外边距-vh）" class="headerlink" title="方式四（位移+外边距 + vh）"></a>方式四（位移+外边距 + vh）</h2><p>html 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.container &#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  height: 200px;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">  margin-top: 50vh;</span><br><span class="line">  background-color: blanchedalmond;</span><br><span class="line">  transform: translate(0, -50%)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E5%9E%82%E7%9B%B4.png" alt="垂直"></p><p>注意：部分文章可能会在不就的将来更新</p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然   有 不好的地方  请大家帮忙指出   学习永无止境    </p><p>小编一直认为  人外有人  天外有天    一起学习   共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html，css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html，css </tag>
             
         </tags>
       
@@ -845,16 +825,14 @@
       
       <categories>
           
-          <category> javascript </category>
+          <category> js </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> javascript </tag>
-            
-            <tag> 正则表达式 </tag>
+            <tag> js </tag>
             
         </tags>
       
@@ -880,33 +858,6 @@
         <tags>
             
             <tag> docsify </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>盒子的垂直水平居中的几种方式</title>
-      <link href="2018/02/15/divCenter/"/>
-      <url>2018/02/15/divCenter/</url>
-      
-        <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>首先，在做之前，咱们先来分析一下我们要做的是什么？</p><p>一个盒子，垂直   水平  居中</p><p>首先   有居中  就必定会被一个父容器（盒子）包裹。</p><p>其次  要居中的盒子不会超出父容器大小（否则做居中意义就不大了）</p><p>然后   要居中的盒子的宽高可以分为两类   1. 具有固定的宽高。 2. 没有固定的宽高</p><p>​      根据盒子的类型也可分为两类    1.行内快元素inline-block    2. 块级元素block</p><p>那么   现在开始吧！</p><h2 id="方式一-弹性盒模型的方式"><a href="#方式一-弹性盒模型的方式" class="headerlink" title="方式一  (弹性盒模型的方式)"></a>方式一  (弹性盒模型的方式)</h2><p>html 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.box&#123;</span><br><span class="line">  height: 100vh;</span><br><span class="line">  display: flex;</span><br><span class="line">  justify-content: center;</span><br><span class="line">  align-items: center;</span><br><span class="line">&#125;</span><br><span class="line">.container&#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  background-color: aqua;</span><br><span class="line">  height: 200px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E5%BC%B9%E6%80%A7%E7%9B%92%E6%A8%A1%E5%9E%8B.png" alt="弹性盒模型"></p><h2 id="方式二-（绝对定位）"><a href="#方式二-（绝对定位）" class="headerlink" title="方式二 （绝对定位）"></a>方式二 （绝对定位）</h2><p>html  代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css  代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.container &#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  background-color: red;</span><br><span class="line">  height: 200px;</span><br><span class="line">  margin: auto;</span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 0;</span><br><span class="line">  bottom: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  right: 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D.png" alt="绝对定位"></p><p>注意：由于是使用绝对定位。元素脱离文档流，相对于具有除去<strong>static</strong>定位以外的其他父级定位去定位的，如果没有父级定位，根据body来定位</p><h2 id="方式三（位移transform的translate属性-定位）"><a href="#方式三（位移transform的translate属性-定位）" class="headerlink" title="方式三（位移transform的translate属性 + 定位）"></a>方式三（位移transform的translate属性 + 定位）</h2><p>html 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">  position: relative;</span><br><span class="line">  height: 100vh;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.container &#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  height: 200px;</span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 50%;</span><br><span class="line">  left: 50%;</span><br><span class="line">  transform: translate(-50%, -50%);</span><br><span class="line">  background-color: blueviolet;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E4%BD%8D%E7%A7%BBpng.png" alt="位移"></p><h2 id="方式四（位移-外边距-vh）"><a href="#方式四（位移-外边距-vh）" class="headerlink" title="方式四（位移+外边距 + vh）"></a>方式四（位移+外边距 + vh）</h2><p>html 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>css 代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.container &#123;</span><br><span class="line">  width: 200px;</span><br><span class="line">  height: 200px;</span><br><span class="line">  margin: 0 auto;</span><br><span class="line">  margin-top: 50vh;</span><br><span class="line">  background-color: blanchedalmond;</span><br><span class="line">  transform: translate(0, -50%)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果图</p><p><img src="http://www.blog.image.qcwy.org.cn/old/divCenter/%E5%9E%82%E7%9B%B4.png" alt="垂直"></p><p>注意：部分文章可能会在不就的将来更新</p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然   有 不好的地方  请大家帮忙指出   学习永无止境    </p><p>小编一直认为  人外有人  天外有天    一起学习   共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> html </category>
-          
-          <category> css </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> html，css </tag>
             
         </tags>
       
@@ -974,14 +925,14 @@
       
       <categories>
           
-          <category> javascript </category>
+          <category> js </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> javascript </tag>
+            <tag> js </tag>
             
         </tags>
       
@@ -1024,14 +975,14 @@
       
       <categories>
           
-          <category> javascript </category>
+          <category> js </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> javascript </tag>
+            <tag> js </tag>
             
         </tags>
       
@@ -1044,7 +995,7 @@
       <link href="2017/08/15/starthtml/"/>
       <url>2017/08/15/starthtml/</url>
       
-        <content type="html"><![CDATA[<h1 id="Html基础知识学习总结"><a href="#Html基础知识学习总结" class="headerlink" title="Html基础知识学习总结"></a><strong>Html基础知识学习总结</strong></h1><h2 id="Html基础标签"><a href="#Html基础标签" class="headerlink" title="Html基础标签"></a>Html基础标签</h2><blockquote><p><code>&lt;h1&gt;&lt;/h1&gt;</code>:标题<br><code>&lt;p&gt;&lt;/p&gt;</code> 段落<br><code>&lt;hr&gt;</code>水平线<br><code>&lt;br&gt;</code>换行<br><code>&lt;span&gt;&lt;/span&gt;</code>分区，可多标签一行<br><code>&lt;div&gt;&lt;/div&gt;</code>分区，每个标签一行</p></blockquote><h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><blockquote><p><b></b> <strong></strong>加粗<br><i></i> <em></em>斜体<br><s></s> <del></del>删除<br><u></u> <ins>&lt;/ins 下划线</p></blockquote><h2 id="图像标签"><a href="#图像标签" class="headerlink" title="图像标签"></a>图像标签</h2><blockquote><img src="图片url"><img/>属性<ul><li><code>alt</code> 图片不能显示时的替代文本</li><li><code>title</code> 鼠标悬停时显示</li><li><code>height</code> 图像高度</li><li><code>width</code> 图像宽度</li><li><code>border</code> 图像边框宽度</li></ul></blockquote><h2 id="超链接标签"><a href="#超链接标签" class="headerlink" title="超链接标签"></a>超链接标签</h2><blockquote><p><a href="URL" target ="打开方式"></a><br>href =url   链接的地址<br>target _blank 新窗口打开</p><ul><li><strong><code>&lt;base&gt;</code> <code>&lt;base target=&quot;_blank&quot;&gt;</code></strong> 设置超链接的共有属性</li></ul></blockquote><h2 id="预格式化文本"><a href="#预格式化文本" class="headerlink" title="预格式化文本"></a>预格式化文本</h2><blockquote><p>&lt;pre&gt; &lt;/pre&gt; 预格式化文本</p><p>保留空格与换行</p></blockquote><h2 id="常用特殊字符"><a href="#常用特殊字符" class="headerlink" title="常用特殊字符"></a>常用特殊字符</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">空字符      <span class="symbol">&amp;nbsp;</span></span><br><span class="line">注册商标    <span class="symbol">&amp;reg;</span></span><br><span class="line"><span class="tag">&lt;    &amp;<span class="attr">lt</span>;</span></span><br><span class="line"><span class="tag">&gt;</span><span class="symbol">&amp;gt;</span></span><br><span class="line">&amp;    <span class="symbol">&amp;amp;</span></span><br></pre></td></tr></table></figure><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><h3 id="表格数据格式"><a href="#表格数据格式" class="headerlink" title="表格数据格式"></a>表格数据格式</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 表格标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">border</span>=<span class="string">&quot;1&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--表格标题标签 即表头--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">caption</span>&gt;</span>表格标题<span class="tag">&lt;/<span class="name">caption</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--行标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--表头单元格,文字居中且加粗--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">th</span>&gt;</span><span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--单元格标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="表格属性"><a href="#表格属性" class="headerlink" title="表格属性"></a>表格属性</h3><blockquote><p><code>border</code> 边框<br><code>width</code> 宽度<br><code>height</code> 高度<br><code>align</code> 设置表格在网页中水平对齐方式</p><ul><li><code>left</code></li><li><code>center</code></li><li><code>right</code></li><li><code>cellspacing</code> 单元格与单元格之间距离</li><li><code>cellpadding</code> 单元格内容与边框的距离</li></ul></blockquote><h3 id="合并单元格"><a href="#合并单元格" class="headerlink" title="合并单元格"></a>合并单元格</h3><h4 id="行"><a href="#行" class="headerlink" title="行"></a>行</h4><blockquote><p> rowspan=”合并单元格的个数 “</p></blockquote><h4 id="列"><a href="#列" class="headerlink" title="列"></a>列</h4><blockquote><p>colspan=”合并单元格个数”</p></blockquote><h4 id="合并的方式"><a href="#合并的方式" class="headerlink" title="合并的方式"></a>合并的方式</h4><blockquote><ol><li>先确认跨行还是跨列</li><li>根据 先上 后下 先左 后右的原则找到目标单元格 ，然后写上合并方式 和合并数量</li><li>删除多余的单元格</li></ol></blockquote><h3 id="语义化结构划分"><a href="#语义化结构划分" class="headerlink" title="语义化结构划分"></a>语义化结构划分</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">thead</span>&gt;</span><span class="tag">&lt;/<span class="name">thead</span>&gt;</span> 表的头部   内部必须拥有<span class="tag">&lt;<span class="name">tr</span>&gt;</span>标签</span><br><span class="line"><span class="tag">&lt;<span class="name">tbody</span>&gt;</span><span class="tag">&lt;/<span class="name">tbody</span>&gt;</span> 表的主体</span><br><span class="line"><span class="tag">&lt;<span class="name">tfoot</span>&gt;</span><span class="tag">&lt;/<span class="name">tfoot</span>&gt;</span> 表的末尾</span><br><span class="line"> 注意：结构不是必须的   即使不写，绝大多数浏览器在解析的时候，都会智能的给你加上</span><br></pre></td></tr></table></figure><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><blockquote><ol><li>有序列表   <ol></ol></li><li>无序列表   <ul></ul></li><li>自定义列表 <dl></dl></li></ol></blockquote><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">注意：实际中很少使用有序列表，在做一些列表的时候，大家都比较喜欢使用无序列表。因为ul标签里面只能嵌套li标签</span><br><span class="line">一般在使用列表的时候都会去除别表的默认样式，再根据自己的需求去使用css  js  去定制自己需要的样式和交互</span><br></pre></td></tr></table></figure><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--ul内只能嵌套li--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项1 <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项2<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">注意：一般的列表，都喜欢使用 无序列表</span><br></pre></td></tr></table></figure><h3 id="自定义列表"><a href="#自定义列表" class="headerlink" title="自定义列表"></a>自定义列表</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dt</span>&gt;</span>名词<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>名词的解释1<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>名词的解释2<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dt</span>&gt;</span>名词2<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>名词2的解释2<span class="tag">&lt;<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br><span class="line">注意：自定义标签一般都用在页面结尾的友情链接部分  就是  页面的 footer部分</span><br></pre></td></tr></table></figure><h2 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h2><blockquote><p><from>这里写具体的表单标签</from> // from表单用于提交数据   有action   method  name属性</p></blockquote><h3 id="表单标签"><a href="#表单标签" class="headerlink" title="表单标签"></a>表单标签</h3><h4 id="标签"><a href="#标签" class="headerlink" title=" 标签"></a><input/> 标签</h4><blockquote><ul><li>语法<pre><code>&lt;input type=&quot;属性值&quot;/&gt;</code></pre></li><li>属性值<ul><li>type</li><li>text 单行文本输入框</li><li>password 密码输入框</li><li>radio 单选按钮</li><li>checkbox 复选框</li><li>button 普通按钮</li><li>submit 提交按钮</li><li>reset 重置按钮</li><li>image 图像形式的提交按钮</li><li>file 文件域</li><li>name 控件的名称</li><li>value input控件中的默认文本值</li><li>size input控件在页面中的显示宽度</li><li>checked 表示默认选中状态</li></ul></li></ul></blockquote><h4 id="lt-label-gt-lt-label-gt-标签"><a href="#lt-label-gt-lt-label-gt-标签" class="headerlink" title="&lt;label&gt;&lt;/label&gt;标签"></a><code>&lt;label&gt;&lt;/label&gt;</code>标签</h4><blockquote><p><label>用户名：<input type="text"/></label></p><p><label for="username">用户名：</label>    </p> <input type="text" id="username"/> </blockquote><h4 id="lt-textarea-gt-lt-textarea-gt-文本域"><a href="#lt-textarea-gt-lt-textarea-gt-文本域" class="headerlink" title="&lt;textarea&gt;&lt;/textarea&gt; 文本域"></a><code>&lt;textarea&gt;&lt;/textarea&gt;</code> 文本域</h4><h4 id="select下拉列表"><a href="#select下拉列表" class="headerlink" title="select下拉列表"></a><code>select</code>下拉列表</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">select</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>--请选择--<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--添加默认选中项--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>　 <span class="attr">selected</span>=<span class="string">&quot;selected&quot;</span>&gt;</span>选项１<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>选项２<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure><p>注意：部分文章可能会在不就的将来更新</p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然   有 不好的地方  请大家帮忙指出   学习永无止境    </p><p>小编一直认为  人外有人  天外有天    一起学习   共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Html基础知识学习总结"><a href="#Html基础知识学习总结" class="headerlink" title="Html基础知识学习总结"></a><strong>Html基础知识学习总结</strong></h1><h2 id="Html基础标签"><a href="#Html基础标签" class="headerlink" title="Html基础标签"></a>Html基础标签</h2><blockquote><p><code>&lt;h1&gt;&lt;/h1&gt;</code>:标题<br><code>&lt;p&gt;&lt;/p&gt;</code> 段落<br><code>&lt;hr&gt;</code>水平线<br><code>&lt;br&gt;</code>换行<br><code>&lt;span&gt;&lt;/span&gt;</code>分区，可多标签一行<br><code>&lt;div&gt;&lt;/div&gt;</code>分区，每个标签一行</p></blockquote><h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><blockquote><p><b></b> <strong></strong>加粗<br><i></i> <em></em>斜体<br><s></s> <del></del>删除<br><u></u> <ins>&lt;/ins 下划线</p></blockquote><h2 id="图像标签"><a href="#图像标签" class="headerlink" title="图像标签"></a>图像标签</h2><blockquote><p>&lt;img src=”图片url”&gt;<br>&lt;img/&gt;属性</p><ul><li><code>alt</code> 图片不能显示时的替代文本</li><li><code>title</code> 鼠标悬停时显示</li><li><code>height</code> 图像高度</li><li><code>width</code> 图像宽度</li><li><code>border</code> 图像边框宽度</li></ul></blockquote><h2 id="超链接标签"><a href="#超链接标签" class="headerlink" title="超链接标签"></a>超链接标签</h2><blockquote><p><a href="URL" target ="打开方式"></a><br>href =url   链接的地址<br>target _blank 新窗口打开</p><ul><li><strong><code>&lt;base&gt;</code> <code>&lt;base target=&quot;_blank&quot;&gt;</code></strong> 设置超链接的共有属性</li></ul></blockquote><h2 id="预格式化文本"><a href="#预格式化文本" class="headerlink" title="预格式化文本"></a>预格式化文本</h2><blockquote><p>&lt;pre&gt; &lt;/pre&gt; 预格式化文本</p><p>保留空格与换行</p></blockquote><h2 id="常用特殊字符"><a href="#常用特殊字符" class="headerlink" title="常用特殊字符"></a>常用特殊字符</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">空字符      <span class="symbol">&amp;nbsp;</span></span><br><span class="line">注册商标    <span class="symbol">&amp;reg;</span></span><br><span class="line"><span class="tag">&lt;    &amp;<span class="attr">lt</span>;</span></span><br><span class="line"><span class="tag">&gt;</span><span class="symbol">&amp;gt;</span></span><br><span class="line">&amp;    <span class="symbol">&amp;amp;</span></span><br></pre></td></tr></table></figure><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><h3 id="表格数据格式"><a href="#表格数据格式" class="headerlink" title="表格数据格式"></a>表格数据格式</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 表格标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">border</span>=<span class="string">&quot;1&quot;</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--表格标题标签 即表头--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">caption</span>&gt;</span>表格标题<span class="tag">&lt;/<span class="name">caption</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--行标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--表头单元格,文字居中且加粗--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">th</span>&gt;</span><span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--单元格标签--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="表格属性"><a href="#表格属性" class="headerlink" title="表格属性"></a>表格属性</h3><blockquote><p><code>border</code> 边框<br><code>width</code> 宽度<br><code>height</code> 高度<br><code>align</code> 设置表格在网页中水平对齐方式</p><ul><li><code>left</code></li><li><code>center</code></li><li><code>right</code></li><li><code>cellspacing</code> 单元格与单元格之间距离</li><li><code>cellpadding</code> 单元格内容与边框的距离</li></ul></blockquote><h3 id="合并单元格"><a href="#合并单元格" class="headerlink" title="合并单元格"></a>合并单元格</h3><h4 id="行"><a href="#行" class="headerlink" title="行"></a>行</h4><blockquote><p> rowspan=”合并单元格的个数 “</p></blockquote><h4 id="列"><a href="#列" class="headerlink" title="列"></a>列</h4><blockquote><p>colspan=”合并单元格个数”</p></blockquote><h4 id="合并的方式"><a href="#合并的方式" class="headerlink" title="合并的方式"></a>合并的方式</h4><blockquote><ol><li>先确认跨行还是跨列</li><li>根据 先上 后下 先左 后右的原则找到目标单元格 ，然后写上合并方式 和合并数量</li><li>删除多余的单元格</li></ol></blockquote><h3 id="语义化结构划分"><a href="#语义化结构划分" class="headerlink" title="语义化结构划分"></a>语义化结构划分</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">thead</span>&gt;</span><span class="tag">&lt;/<span class="name">thead</span>&gt;</span> 表的头部   内部必须拥有<span class="tag">&lt;<span class="name">tr</span>&gt;</span>标签</span><br><span class="line"><span class="tag">&lt;<span class="name">tbody</span>&gt;</span><span class="tag">&lt;/<span class="name">tbody</span>&gt;</span> 表的主体</span><br><span class="line"><span class="tag">&lt;<span class="name">tfoot</span>&gt;</span><span class="tag">&lt;/<span class="name">tfoot</span>&gt;</span> 表的末尾</span><br><span class="line"> 注意：结构不是必须的   即使不写，绝大多数浏览器在解析的时候，都会智能的给你加上</span><br></pre></td></tr></table></figure><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><blockquote><ol><li>有序列表   <ol></ol></li><li>无序列表   <ul></ul></li><li>自定义列表 <dl></dl></li></ol></blockquote><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line">注意：实际中很少使用有序列表，在做一些列表的时候，大家都比较喜欢使用无序列表。因为ul标签里面只能嵌套li标签</span><br><span class="line">一般在使用列表的时候都会去除别表的默认样式，再根据自己的需求去使用css  js  去定制自己需要的样式和交互</span><br></pre></td></tr></table></figure><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--ul内只能嵌套li--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项1 <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span>列表项2<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">注意：一般的列表，都喜欢使用 无序列表</span><br></pre></td></tr></table></figure><h3 id="自定义列表"><a href="#自定义列表" class="headerlink" title="自定义列表"></a>自定义列表</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dt</span>&gt;</span>名词<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>名词的解释1<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>名词的解释2<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dt</span>&gt;</span>名词2<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dd</span>&gt;</span>名词2的解释2<span class="tag">&lt;<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br><span class="line">注意：自定义标签一般都用在页面结尾的友情链接部分  就是  页面的 footer部分</span><br></pre></td></tr></table></figure><h2 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h2><blockquote><p><from>这里写具体的表单标签</from> // from表单用于提交数据   有action   method  name属性</p></blockquote><h3 id="表单标签"><a href="#表单标签" class="headerlink" title="表单标签"></a>表单标签</h3><h4 id="标签"><a href="#标签" class="headerlink" title=" 标签"></a><input/> 标签</h4><blockquote><ul><li>语法<pre><code>&lt;input type=&quot;属性值&quot;/&gt;</code></pre></li><li>属性值<ul><li>type</li><li>text 单行文本输入框</li><li>password 密码输入框</li><li>radio 单选按钮</li><li>checkbox 复选框</li><li>button 普通按钮</li><li>submit 提交按钮</li><li>reset 重置按钮</li><li>image 图像形式的提交按钮</li><li>file 文件域</li><li>name 控件的名称</li><li>value input控件中的默认文本值</li><li>size input控件在页面中的显示宽度</li><li>checked 表示默认选中状态</li></ul></li></ul></blockquote><h4 id="lt-label-gt-lt-label-gt-标签"><a href="#lt-label-gt-lt-label-gt-标签" class="headerlink" title="&lt;label&gt;&lt;/label&gt;标签"></a><code>&lt;label&gt;&lt;/label&gt;</code>标签</h4><blockquote><p><label>用户名：<input type="text"/></label></p><p><label for="username">用户名：</label>    </p> <input type="text" id="username"/> </blockquote><h4 id="lt-textarea-gt-lt-textarea-gt-文本域"><a href="#lt-textarea-gt-lt-textarea-gt-文本域" class="headerlink" title="&lt;textarea&gt;&lt;/textarea&gt; 文本域"></a><code>&lt;textarea&gt;&lt;/textarea&gt;</code> 文本域</h4><h4 id="select下拉列表"><a href="#select下拉列表" class="headerlink" title="select下拉列表"></a><code>select</code>下拉列表</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">select</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>--请选择--<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--添加默认选中项--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>　 <span class="attr">selected</span>=<span class="string">&quot;selected&quot;</span>&gt;</span>选项１<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span>&gt;</span>选项２<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure><p>注意：部分文章可能会在不就的将来更新</p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然   有 不好的地方  请大家帮忙指出   学习永无止境    </p><p>小编一直认为  人外有人  天外有天    一起学习   共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
       
       
       <categories>
