@@ -783,7 +783,9 @@
       
       <categories>
           
-          <category> html css </category>
+          <category> html </category>
+          
+          <category> css </category>
           
       </categories>
       
