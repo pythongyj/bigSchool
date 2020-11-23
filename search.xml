@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>更改URL但不跳转页面</title>
+      <link href="2020/11/23/js/change-url/"/>
+      <url>2020/11/23/js/change-url/</url>
+      
+        <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote><p>今天提出了一个需求，就是在使用第三方支付的时候，如果用户在支付页面直接点击浏览器的返回页面，会直接返回到下单的页面，但此时订单已经下过了，再次返回到下订单的页面，展示之前的内容显然是不合理的，现在的需求就是，用户在第三方支付的时候，点击浏览器的返回按钮时，返回到当前下的订单的订单详情页面。</p></blockquote><h2 id="寻找解决方法"><a href="#寻找解决方法" class="headerlink" title="寻找解决方法"></a>寻找解决方法</h2><blockquote><p>你可能会说，单击返回的时候跳转到订单详情页面不就行了么！那么不好意思，你怎么知道或者说这么做是没办法跳转过去的，因为从支付页面返回没有传回来任何的参数，程序根本就什么都不知道，由于是公司的项目，这里就不贴图了（程序员操守）。</p></blockquote><blockquote><p>经过思考，研究，想到如果在页面跳转到支付页面之前，先往页面的历史记录里添加一条订单详情的历史记录是不是可以解决问题。</p></blockquote><h2 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题"></a>解决问题</h2><p>经过插文档和mdn发现，如果想要往历史记录里加入一条记录，但是页面不发生变化。需要使用history.replaceState(null,””,``);</p><p>最终解决</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">history.replaceState(</span><br><span class="line">   <span class="literal">null</span>,</span><br><span class="line">   <span class="string">&quot;&quot;</span>,</span><br><span class="line">   <span class="string">`http://192.168.1.11:8080/tw/xxx/orderdetail/<span class="subst">$&#123;xxx&#125;</span>`</span></span><br><span class="line">  );</span><br><span class="line"> <span class="built_in">window</span>.location = xxx.goUrl;</span><br></pre></td></tr></table></figure><p>效果图暂不展示，如果需要，可直接demo嘛！</p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然 有 不好的地方 请大家帮忙指出 学习永无止境</p><p>小编一直认为 人外有人 天外有天 一起学习 共同进步</p><p>让我们共同加油吧！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> js </category>
+          
+          <category> url </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>flutter 基础学习第一天</title>
+      <link href="2020/11/15/flutter/basis_one/"/>
+      <url>2020/11/15/flutter/basis_one/</url>
+      
+        <content type="html"><![CDATA[<h2 id="flutter基础之Text"><a href="#flutter基础之Text" class="headerlink" title="flutter基础之Text"></a>flutter基础之Text</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">&#x27;package:flutter/material.dart&#x27;</span>;</span><br><span class="line"> </span><br><span class="line"> <span class="keyword">void</span> main()=&gt;runApp(MyApp());</span><br><span class="line"> <span class="class"><span class="keyword">class</span> <span class="title">MyApp</span> <span class="keyword">extends</span> <span class="title">StatelessWidget</span> </span>&#123;</span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">   Widget build(BuildContext context) &#123;</span><br><span class="line">     <span class="keyword">return</span> MaterialApp(</span><br><span class="line">       title: <span class="string">&quot;flutter入门学习&quot;</span>,</span><br><span class="line">       home: Scaffold(</span><br><span class="line">         body: Center(</span><br><span class="line">           child: Text(</span><br><span class="line">             <span class="string">&quot;今天开始学习flutter的text组件，我相信总有一天我会成为flutter真正的开发者，加油！打工人&quot;</span>,</span><br><span class="line">             textAlign: TextAlign.center,</span><br><span class="line">             maxLines: <span class="number">1</span>,</span><br><span class="line">             overflow: TextOverflow.ellipsis,</span><br><span class="line">             style: TextStyle(</span><br><span class="line">              fontSize: <span class="number">26.0</span>,</span><br><span class="line">              color: Color.fromARGB(<span class="number">255</span>, <span class="number">255</span>,<span class="number">33</span>,<span class="number">33</span>),               </span><br><span class="line">              decoration: TextDecoration.lineThrough,</span><br><span class="line">              decorationStyle: TextDecorationStyle.dotted,</span><br><span class="line">             ),</span><br><span class="line">           ),</span><br><span class="line">         ),</span><br><span class="line">       ),</span><br><span class="line">     );</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> flutter </category>
+          
+          <category> 基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> flutter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2020下半年——目标</title>
       <link href="2020/08/06/other/target-2020/"/>
       <url>2020/08/06/other/target-2020/</url>
