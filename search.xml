@@ -133,6 +133,35 @@
     
     
     <entry>
+      <title>读vantUI源码发现的语法（坑了我一把）</title>
+      <link href="2020/09/10/vue/vant-ui-code/"/>
+      <url>2020/09/10/vue/vant-ui-code/</url>
+      
+        <content type="html"><![CDATA[<h2 id="真心的吐槽"><a href="#真心的吐槽" class="headerlink" title="真心的吐槽"></a>真心的吐槽</h2><blockquote><p>今天看vant源码，可把我坑了一把，问了好多人，查了好久的东西。先看问题<br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/1.webp" alt="image.png"><br>看标记的部分，发现vant源码内用了大量的这种语法。讲真的，我是第一次看到代码这样写。<br>一个特别大的疑问涌上心头。那就是第一个括号里的<strong>0</strong>是干嘛的呢？自执行函数不应该是<strong>（）（）</strong>的么？哪这事什么语法呢？ 再看看其他的框架，也到处都是这种语法</p></blockquote><h2 id="解决疑问"><a href="#解决疑问" class="headerlink" title="解决疑问"></a>解决疑问</h2><p><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/2.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/3.webp" alt="image.png"></p><p><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/4.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/5.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/6.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/7.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/8.webp" alt="image.png"></p><p><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/9.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/10.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/11.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/12.webp" alt="image.png"></p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><blockquote><p>终究还是自执行函数，在严格模式下，为了使其在全局范围内执行，改变this指向的作用。</p></blockquote><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://blog.csdn.net/Winne_Shen/article/details/102684878">https://blog.csdn.net/Winne_Shen/article/details/102684878</a><br><a href="https://www.jianshu.com/p/c64bfbcd34c3">https://www.jianshu.com/p/c64bfbcd34c3</a><br><a href="https://www.i-programmer.info/programming/javascript/6524-the-confusing-comma-in-javascript.html">https://www.i-programmer.info/programming/javascript/6524-the-confusing-comma-in-javascript.html</a></p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然 有 不好的地方 请大家帮忙指出 学习永无止境</p><p>小编一直认为 人外有人 天外有天 一起学习 共同进步</p><p>让我们共同加油吧！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vue </category>
+          
+          <category> vant </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+            <tag> vant </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2020下半年——目标</title>
       <link href="2020/08/06/other/target-2020/"/>
       <url>2020/08/06/other/target-2020/</url>
@@ -556,35 +585,6 @@
           <category> vue </category>
           
           <category> 组件的List渲染列表多页列表 切换不加载的问题 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> vue </tag>
-            
-            <tag> vant </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>读vantUI源码发现的语法（坑了我一把）</title>
-      <link href="2019/06/04/vue/vant-ui-code/"/>
-      <url>2019/06/04/vue/vant-ui-code/</url>
-      
-        <content type="html"><![CDATA[<h2 id="真心的吐槽"><a href="#真心的吐槽" class="headerlink" title="真心的吐槽"></a>真心的吐槽</h2><blockquote><p>今天看vant源码，可把我坑了一把，问了好多人，查了好久的东西。先看问题<br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/1.webp" alt="image.png"><br>看标记的部分，发现vant源码内用了大量的这种语法。讲真的，我是第一次看到代码这样写。<br>一个特别大的疑问涌上心头。那就是第一个括号里的<strong>0</strong>是干嘛的呢？自执行函数不应该是<strong>（）（）</strong>的么？哪这事什么语法呢？ 再看看其他的框架，也到处都是这种语法</p></blockquote><h2 id="解决疑问"><a href="#解决疑问" class="headerlink" title="解决疑问"></a>解决疑问</h2><p><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/2.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/3.webp" alt="image.png"></p><p><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/4.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/5.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/6.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/7.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/8.webp" alt="image.png"></p><p><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/9.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/10.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/11.webp" alt="image.png"><br><img src="http://www.blog.image.qcwy.org.cn/article/vant/vant-ui-code/12.webp" alt="image.png"></p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><blockquote><p>终究还是自执行函数，在严格模式下，为了使其在全局范围内执行，改变this指向的作用。</p></blockquote><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://blog.csdn.net/Winne_Shen/article/details/102684878">https://blog.csdn.net/Winne_Shen/article/details/102684878</a><br><a href="https://www.jianshu.com/p/c64bfbcd34c3">https://www.jianshu.com/p/c64bfbcd34c3</a><br><a href="https://www.i-programmer.info/programming/javascript/6524-the-confusing-comma-in-javascript.html">https://www.i-programmer.info/programming/javascript/6524-the-confusing-comma-in-javascript.html</a></p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然 有 不好的地方 请大家帮忙指出 学习永无止境</p><p>小编一直认为 人外有人 天外有天 一起学习 共同进步</p><p>让我们共同加油吧！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> vue </category>
-          
-          <category> vant </category>
           
       </categories>
       
