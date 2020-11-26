@@ -166,7 +166,7 @@
       <link href="2020/09/09/js/js-cookie/"/>
       <url>2020/09/09/js/js-cookie/</url>
       
-        <content type="html"><![CDATA[<h2 id="1、整理记录一下js-cookie这个库的使用"><a href="#1、整理记录一下js-cookie这个库的使用" class="headerlink" title="1、整理记录一下js-cookie这个库的使用"></a>1、整理记录一下js-cookie这个库的使用</h2><blockquote><p>一个简单，轻巧的JavaScript API，用于处理Cookie</p><ul><li>  适用于<a href="https://saucelabs.com/u/js-cookie">所有</a>浏览器</li><li>  接受<a href="https://www.npmjs.com/package/js-cookie#encoding">任何</a>字符</li><li>  <a href="https://github.com/js-cookie/js-cookie/blob/HEAD/test"></a>经过<a href="https://github.com/js-cookie/js-cookie/blob/HEAD/test">严格</a>测试</li><li>  无依赖性</li><li>  <a href="https://www.npmjs.com/package/js-cookie#json">不引人注目的</a> JSON支持</li><li>  支持AMD / CommonJS</li><li>  <a href="https://tools.ietf.org/html/rfc6265"></a>符合<a href="https://tools.ietf.org/html/rfc6265">RFC 6265</a></li><li>  有用的<a href="https://github.com/js-cookie/js-cookie/wiki">维基</a></li><li>  启用<a href="https://www.npmjs.com/package/js-cookie#converters">自定义编码/解码</a></li><li>压缩<strong>约900个字节</strong>！<br>这就是官方的描述，很好用的一个库，了解了这个库的好处，下面开始正式介绍使用。</li></ul></blockquote><h2 id="2、使用"><a href="#2、使用" class="headerlink" title="2、使用"></a>2、使用</h2><h3 id="2-1、下载安装"><a href="#2-1、下载安装" class="headerlink" title="2.1、下载安装"></a>2.1、下载安装</h3><blockquote><script src="/path/to/js.cookie.js"></script><p>OR</p><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><p>OR</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add js-cookie --save  / npm install js-cookie -- save</span><br></pre></td></tr></table></figure><p>JavaScript Cookie也可以作为AMD或CommonJS模块加载</p></blockquote><h3 id="2-2、基本用法"><a href="#2-2、基本用法" class="headerlink" title="2.2、基本用法"></a>2.2、基本用法</h3><ul><li><ol><li>创建一个在整个网站上有效的cookie <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.set(<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;value&#x27;</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="2"><li>创建一个在整个网站都有效，但有效期为7天但cookie <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.set(<span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;value&#x27;</span>, &#123; <span class="attr">expires</span>: <span class="number">7</span> &#125;);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="3"><li>读取cookie <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.get(<span class="string">&#x27;name&#x27;</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="4"><li>读取所有可见的cookie <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.get();</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="5"><li>删除cookie<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.remove(<span class="string">&#x27;name&#x27;</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="6"><li>根据不同的domain/path进行删除<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.remove(<span class="string">&#x27;name&#x27;</span>, &#123; <span class="attr">path</span>: <span class="string">&#x27;&#x27;</span>, <span class="attr">domain</span>: <span class="string">&#x27;&#x27;</span> &#125;);</span><br></pre></td></tr></table></figure></li></ol></li></ul><p><strong>注意：</strong>在读取的时候，domain/path属性将不起作用。删除的时候，如果不想用默认的参数，就需要覆盖其默认的参数</p><p>还有一些其他的用法，如需了解<a href="https://www.npmjs.com/package/js-cookie">请查看官网</a></p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然 有 不好的地方 请大家帮忙指出 学习永无止境</p><p>小编一直认为 人外有人 天外有天 一起学习 共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="1、整理记录一下-js-cookie-这个库的使用"><a href="#1、整理记录一下-js-cookie-这个库的使用" class="headerlink" title="1、整理记录一下 js-cookie 这个库的使用"></a>1、整理记录一下 js-cookie 这个库的使用</h2><blockquote><p>一个简单，轻巧的 JavaScript API，用于处理 Cookie</p><ul><li>适用于<a href="https://saucelabs.com/u/js-cookie">所有</a>浏览器</li><li>接受<a href="https://www.npmjs.com/package/js-cookie#encoding">任何</a>字符</li><li><a href="https://github.com/js-cookie/js-cookie/blob/HEAD/test"></a>经过<a href="https://github.com/js-cookie/js-cookie/blob/HEAD/test">严格</a>测试</li><li>无依赖性</li><li><a href="https://www.npmjs.com/package/js-cookie#json">不引人注目的</a> JSON 支持</li><li>支持 AMD / CommonJS</li><li><a href="https://tools.ietf.org/html/rfc6265"></a>符合<a href="https://tools.ietf.org/html/rfc6265">RFC 6265</a></li><li>有用的<a href="https://github.com/js-cookie/js-cookie/wiki">维基</a></li><li>启用<a href="https://www.npmjs.com/package/js-cookie#converters">自定义编码/解码</a></li><li>压缩<strong>约 900 个字节</strong>！<br>这就是官方的描述，很好用的一个库，了解了这个库的好处，下面开始正式介绍使用。</li></ul></blockquote><h2 id="2、使用"><a href="#2、使用" class="headerlink" title="2、使用"></a>2、使用</h2><h3 id="2-1、下载安装"><a href="#2-1、下载安装" class="headerlink" title="2.1、下载安装"></a>2.1、下载安装</h3><blockquote><script src="/path/to/js.cookie.js"></script><p>OR</p><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><p>OR</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn add js-cookie --save  / npm install js-cookie -- save</span><br></pre></td></tr></table></figure><p>JavaScript Cookie 也可以作为 AMD 或 CommonJS 模块加载</p></blockquote><h3 id="2-2、基本用法"><a href="#2-2、基本用法" class="headerlink" title="2.2、基本用法"></a>2.2、基本用法</h3><ul><li><ol><li>创建一个在整个网站上有效的 cookie<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.set(<span class="string">&quot;name&quot;</span>, <span class="string">&quot;value&quot;</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="2"><li>创建一个在整个网站都有效，但有效期为 7 天但 cookie<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.set(<span class="string">&quot;name&quot;</span>, <span class="string">&quot;value&quot;</span>, &#123; <span class="attr">expires</span>: <span class="number">7</span> &#125;);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="3"><li>读取 cookie<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.get(<span class="string">&quot;name&quot;</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="4"><li>读取所有可见的 cookie<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.get();</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="5"><li>删除 cookie<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cookies.remove(<span class="string">&quot;name&quot;</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><ol start="6"><li>根据不同的 domain/path 进行删除<br><code>js Cookies.remove(&#39;name&#39;, &#123; path: &#39;&#39;, domain: &#39;&#39; &#125;); </code><br><strong>注意：</strong>在读取的时候，domain/path 属性将不起作用。删除的时候，如果不想用默认的参数，就需要覆盖其默认的参数</li></ol></li></ul><p>还有一些其他的用法，如需了解<a href="https://www.npmjs.com/package/js-cookie">请查看官网</a></p><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然 有 不好的地方 请大家帮忙指出 学习永无止境</p><p>小编一直认为 人外有人 天外有天 一起学习 共同进步</p><p>让我们共同加油吧！！！</p>]]></content>
       
       
       <categories>
@@ -254,6 +254,56 @@
         <tags>
             
             <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>色调平衡</title>
+      <link href="2020/08/18/ui/peise/tonal_balance/"/>
+      <url>2020/08/18/ui/peise/tonal_balance/</url>
+      
+        <content type="html"><![CDATA[<h2 id="色调平衡"><a href="#色调平衡" class="headerlink" title="色调平衡"></a>色调平衡</h2><blockquote><p>色彩三要素 HSB：色相，饱和度，明度<br>饱和度和明度决定色调<br>七个色调：纯色调 刺激直接活力 廉价<br>明色调 明朗干净阳光 廉价<br>淡色调 天真女性纤细高档 单薄软弱<br>白色调 文艺干净高档 无趣单调<br>灰色调 成熟稳重 脏<br>暗色调 品质力量厚重古典高档 阴暗危险<br>色调之间平衡，平衡各色调之间优点与缺点<br>深浅平衡，每个颜色都有自己的重量，轻重平衡形成对比才能看清有重点<br>冷暖平衡，红橙黄暖，蓝冷，绿紫中性<br>互补平衡，色环互补色的使用<br>花色与纯色的平衡<br>有彩色和无彩色的平衡<br>面积平衡 主色百分之七十，辅助色百分之二十五，点缀色百分之五</p></blockquote><p>日常学习随笔</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ui </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>safair下input获取焦点时fixed失效</title>
+      <link href="2020/08/12/js/input-fixed/"/>
+      <url>2020/08/12/js/input-fixed/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、fixed-失效的原因"><a href="#1、fixed-失效的原因" class="headerlink" title="1、fixed 失效的原因"></a>1、fixed 失效的原因</h2><blockquote><p>在 safair 下，当 input 获取焦点当时候，页面内设置当 fixed 固定定位会失效。为自己记录一下产生问题当原因，以便以后查阅。</p></blockquote><h2 id="2、解决办法"><a href="#2、解决办法" class="headerlink" title="2、解决办法"></a>2、解决办法</h2><blockquote><p>根据不同当场景，使用不同当方法。如果 fixed 在顶部可以不做处理，因为本身 input 获取焦点就是在操作 input、如果是在底部，可以设置整体为绝对定位，占全屏，Y 轴超出滚动。还有一种稍微通用当方法就是，操作 dom。在获取 input 焦点的时候，获取滚动距离，设置固定定位为绝对定位，计算出合适当距离，在失去焦点当时候，恢复为固定定位。</p></blockquote><p>随笔</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
             
         </tags>
       
@@ -694,31 +744,6 @@
             <tag> vue </tag>
             
             <tag> vant </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>色调平衡</title>
-      <link href="2019/06/04/ui/peise/tonal_balance/"/>
-      <url>2019/06/04/ui/peise/tonal_balance/</url>
-      
-        <content type="html"><![CDATA[<h2 id="色调平衡"><a href="#色调平衡" class="headerlink" title="色调平衡"></a>色调平衡</h2><blockquote><p>色彩三要素 HSB：色相，饱和度，明度<br>饱和度和明度决定色调<br>七个色调：纯色调 刺激直接活力 廉价<br>明色调 明朗干净阳光 廉价<br>淡色调 天真女性纤细高档 单薄软弱<br>白色调 文艺干净高档 无趣单调<br>灰色调 成熟稳重 脏<br>暗色调 品质力量厚重古典高档 阴暗危险<br>色调之间平衡，平衡各色调之间优点与缺点<br>深浅平衡，每个颜色都有自己的重量，轻重平衡形成对比才能看清有重点<br>冷暖平衡，红橙黄暖，蓝冷，绿紫中性<br>互补平衡，色环互补色的使用<br>花色与纯色的平衡<br>有彩色和无彩色的平衡<br>面积平衡 主色百分之七十，辅助色百分之二十五，点缀色百分之五</p></blockquote><p>日常学习随笔</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> ui </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> ui </tag>
             
         </tags>
       
