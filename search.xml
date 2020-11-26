@@ -339,6 +339,33 @@
     
     
     <entry>
+      <title>Flutter Mac环境配置 创建项目</title>
+      <link href="2020/08/05/flutter/ambient/"/>
+      <url>2020/08/05/flutter/ambient/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、目标"><a href="#1、目标" class="headerlink" title="1、目标"></a>1、目标</h2><blockquote><p>最近开始学习 flutter 开发 app 了, 然而学习之前要安装搭建开发环境。</p></blockquote><h2 id="2、安装"><a href="#2、安装" class="headerlink" title="2、安装"></a>2、安装</h2><blockquote><p>官网<a href="https://flutterchina.club/setup-macos/">https://flutterchina.club/setup-macos/</a><br>首先先下载 flutter 包，下载开发工具等等。<br>其次就是配置环境，因为 flutter 并不像 node.js 那样，安装上就直接配置到环境变量了。flutter 需要自己去配置。具体到配置，可以看上面到官网。这里只记录自己开配置过程中遇到到一些问题，记录一下。</p></blockquote><h2 id="3、配置环境变量"><a href="#3、配置环境变量" class="headerlink" title="3、配置环境变量"></a>3、配置环境变量</h2><blockquote><p>1、在下载好 flutter 包以后，进行解压，然后把解压后到文件放在你想要按装的位置<br>2、使用 linux 的编辑器工具 vim</p></blockquote><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~<span class="regexp">/.bash_profile  /</span><span class="regexp">/使用vim编辑器编写.bash_profile</span></span><br></pre></td></tr></table></figure><blockquote><p>3、在打开 vim 编辑器后，按<strong>i</strong>进入编辑模式，输入</p></blockquote><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> PATH=<span class="regexp">/你的flutter文件夹所在位置/</span>flutter/bin:$PATH</span><br></pre></td></tr></table></figure><blockquote><p>4、输入完成后按<strong>esc</strong>进行退出，输入** ：wq<strong>进行保存退出。这个时候你可能会遇到一个错误（没有截图），就是说</strong>文件只读<strong>，这时强制保存退出就好了。执行</strong>:wq!**进行强制退出保存<br>5、执行命令</p></blockquote><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bash_profile</span><br></pre></td></tr></table></figure><blockquote><p>6、此时 flutter 就配置完成了！但是在你运行 flutter -h 的时候，可能会遇到一个问题</p></blockquote><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Waiting <span class="keyword">for</span> another flutter command to release the startup lock...</span><br></pre></td></tr></table></figure><p>遇到这个问题的话，解决方案如下：</p><blockquote><p>1、关闭 Android Studio<br>2、打开 flutter 安装目录/bin/cache<br>3、删除 lockfile 文件<br>4、此时可在命令行再执行 flutter 相关命令</p></blockquote><p>完美解决</p><blockquote><p>7、此时执行 flutter -h 会打印出 flutter 的相关信息<br>8、执行 flutter doctor 检查环境，如果有错误，根据提示执行就可以了！<br><img src="https://upload-images.jianshu.io/upload_images/23925307-b41e8ffad257e328.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p></blockquote><blockquote><p>8、可以看到还有报错，所以，根据提示执行命令</p></blockquote><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gem install cocoapods</span><br></pre></td></tr></table></figure><p><img src="https://upload-images.jianshu.io/upload_images/23925307-42610f06cea2dc9d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p>此时环境就配置完成喽！</p><h2 id="4、创建项目"><a href="#4、创建项目" class="headerlink" title="4、创建项目"></a>4、创建项目</h2><blockquote><p>1、配置项目完成后，开始创建项目，打开 android studio<br><img src="https://upload-images.jianshu.io/upload_images/23925307-2af8bbb6790e3811.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>2、点击创建 flutter 项目<br><img src="https://upload-images.jianshu.io/upload_images/23925307-0692aa96510da6ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>3、注意：这里 android studio 配置省略了，没有写，因为太简单，根据官网文档提示做就好了！</p></blockquote><p>如果能够帮助到你，是小编最大的荣幸</p><p>当然 有 不好的地方 请大家帮忙指出 学习永无止境</p><p>小编一直认为 人外有人 天外有天 一起学习 共同进步</p><p>让我们共同加油吧！！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> flutter </category>
+          
+          <category> 环境搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> flutter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据结构与算法之图形结构</title>
       <link href="2020/07/27/sjjgysf/sjjgysf-figure/"/>
       <url>2020/07/27/sjjgysf/sjjgysf-figure/</url>
