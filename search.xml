@@ -13,8 +13,6 @@
       
       <categories>
           
-          <category> ui </category>
-          
           <category> ps </category>
           
       </categories>
@@ -22,7 +20,7 @@
       
         <tags>
             
-            <tag> ui </tag>
+            <tag> ps </tag>
             
         </tags>
       
@@ -40,14 +38,14 @@
       
       <categories>
           
-          <category> ui </category>
+          <category> 色调平衡 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> ui </tag>
+            <tag> 色调平衡 </tag>
             
         </tags>
       
