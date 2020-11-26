@@ -702,6 +702,31 @@
     
     
     <entry>
+      <title>色调平衡</title>
+      <link href="2019/06/04/ui/peise/tonal_balance/"/>
+      <url>2019/06/04/ui/peise/tonal_balance/</url>
+      
+        <content type="html"><![CDATA[<h2 id="色调平衡"><a href="#色调平衡" class="headerlink" title="色调平衡"></a>色调平衡</h2><blockquote><p>色彩三要素 HSB：色相，饱和度，明度<br>饱和度和明度决定色调<br>七个色调：纯色调 刺激直接活力 廉价<br>明色调 明朗干净阳光 廉价<br>淡色调 天真女性纤细高档 单薄软弱<br>白色调 文艺干净高档 无趣单调<br>灰色调 成熟稳重 脏<br>暗色调 品质力量厚重古典高档 阴暗危险<br>色调之间平衡，平衡各色调之间优点与缺点<br>深浅平衡，每个颜色都有自己的重量，轻重平衡形成对比才能看清有重点<br>冷暖平衡，红橙黄暖，蓝冷，绿紫中性<br>互补平衡，色环互补色的使用<br>花色与纯色的平衡<br>有彩色和无彩色的平衡<br>面积平衡 主色百分之七十，辅助色百分之二十五，点缀色百分之五</p></blockquote><p>日常学习随笔</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ui </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vue-router</title>
       <link href="2019/05/24/vue/vue-router-parms/"/>
       <url>2019/05/24/vue/vue-router-parms/</url>
