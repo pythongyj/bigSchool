@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>去除图片文字水印</title>
+      <link href="2020/11/26/ui/ps/delete-text/"/>
+      <url>2020/11/26/ui/ps/delete-text/</url>
+      
+        <content type="html"><![CDATA[<h2 id="在网络上下载的图片具有水印"><a href="#在网络上下载的图片具有水印" class="headerlink" title="在网络上下载的图片具有水印"></a>在网络上下载的图片具有水印</h2><blockquote><p>有时候在网络上下载的图片具有水印，会影响到整体的美观，就想把图片的文字水印去掉。本文记录的是自己使用 ps 去除水印的方法！由于刚开始也是不会，经过网络上查找学习才会，所以记录一下，防止遗忘。</p></blockquote><blockquote><p>为了不浪费不必要的时间，这里有些图片说明就省略了，毕竟不是什么难的东西，按照流程做就可以了。没有什么思想和原理什么乱七八糟的东西！</p></blockquote><h2 id="去除过程"><a href="#去除过程" class="headerlink" title="去除过程"></a>去除过程</h2><ol><li>在<strong>菜单栏</strong>执行<strong>文件-&gt;打开</strong>命令，导入图片素材，按下<strong>Command+J</strong> 复制新建图层(<strong>对原文件进行保护</strong>)</li><li>在<strong>工具栏</strong>选中<strong>矩形选框工具</strong>，使用矩形选框工具将<strong>文字水印部分</strong>框选</li><li>在<strong>菜单栏</strong>执行 <strong>选择-&gt;色彩范围</strong>命令</li><li>出现色彩范围窗口，选择<strong>第一个吸管工具</strong>，吸取<strong>文字上的颜色</strong>，调节<strong>颜色容差</strong>，在下方预览的位置看到<strong>文字完整</strong>，且<strong>背景比较黑</strong>的情况下，如果效果不好，可以<strong>选择第二个吸管工具</strong>，将没有吸到的位置吸取，完成后，点击 确定，这样就转中文字水印了</li><li>为了<strong>确保文字水印完全选中</strong>还需要扩展一下选取范围，在<strong>菜单栏</strong>执行 <strong>选择-&gt;修改-&gt;扩展</strong>命令，弹出扩展选区窗口，<strong>扩展值根据实际情况来调整</strong>，点击 确定</li><li>在<strong>菜单栏</strong>执行<strong>编辑-&gt;内容识别填充</strong> 命令，在内容识别填充状态下，<strong>涂抹不被识别的位置</strong>，点击 确定，内容识别填充具有<strong>随机性</strong>，如果效果不好，可以多次尝试</li><li><strong>Command+D</strong> 取消选区。 恭喜你，文字水印去除成功</li></ol><hr><p>日常随笔</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ui </category>
+          
+          <category> ps </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>更改URL但不跳转页面</title>
       <link href="2020/11/23/js/change-url/"/>
       <url>2020/11/23/js/change-url/</url>
